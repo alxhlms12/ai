@@ -1,0 +1,11 @@
+name = "openchat"
+main = "src/index.js"
+compatibility_date = "2026-10-21"
+
+[ai]
+binding = "AI"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
